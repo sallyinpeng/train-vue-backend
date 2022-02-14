@@ -3,7 +3,7 @@ export default {
     isCollapse: false
   },
   mutations: {
-    collapseMenu (state) {
+    collapseMenu(state) {
       state.isCollapse = !state.isCollapse
     }
   }
